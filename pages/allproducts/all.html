@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seedra</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+</head>
+
+<body>
+  <!-- <header class="shadow">
+        <div class="w-[1110px] m-auto">
+          <div class="flex justify-between h-[50px] items-center">
+            <div>
+              <img src="./img/Frame (1).svg" alt="">
+            </div>
+            <nav>
+              <ul class="flex">
+                <li class="mr-[32px]">ALL PRODUCTS</li>
+                <li class="mr-[32px] border-l-2 px-[20px]">ABOUT SEEDRA</li>
+                <li class="mr-[32px] border-l-2 px-[20px]">OUR BLOG</li>
+                <li class="mr-[32px] border-l-2 px-[20px]">CONTACTS</li>
+              </ul>
+            </nav>
+            <div class="flex">
+              <img src="./img/ant-design_instagram-filled.svg" alt="" class="mr-[8px]">
+              <img src="./img/Group (5).svg" alt="">
+              <img src="./img/Vector (1).svg" alt="" class="relative left-[40px]">
+              <input type="text" placeholder="Search"
+                class="mx-[12px] border border-#EFEFEF px-[5px] py-[4px] rounded-[20px] placeholder:pl-[30px]">
+              <img src="./img/Frame 7.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </header> -->
+  <!-- <header></header> -->
+  <header>
+    <div class="w-[350px] m-auto lg:w-[1110px]">
+      <div class="flex justify-between mt-[70px]">
+        <div class="">
+          <a href="../../index.html">
+            <img src="../../img/Frame (11).svg" alt="">
+          </a>
+        </div>
+        <nav class="hidden lg:flex lg:block gap-[10px]">
+          <ul class="flex">
+            <li class="mr-[32px] ml-[]">ALL PRODUCTS</li>
+            <li class="mr-[32px] border-l-2 px-[20px]">ABOUT SEEDRA</li>
+            <li class="mr-[32px] border-l-2 px-[20px]">OUR BLOG</li>
+            <li class="mr-[32px] border-l-2 px-[20px]">CONTACTS</li>
+          </ul>
+        </nav> 
+        <div class="hidden lg:flex gap-[8px] mt-[5px]">
+          <img src="../../img/ant-design_instagram-filled.svg" alt="" class="w-[20px] h-[20px]">
+          <img src="../../img/Group (5).svg" alt="" class="w-[19px] h-[19px]"> 
+        </div>
+        <input type="text" placeholder="Search" class="mx-[12px] hidden lg:block placeholder:pl-[40px] border border-#EFEFEF px-[5px] py-[4px] rounded-[40px]">
+        <div class="flex justify-between">
+          <div class="border-2 rounded-[40px] w-[40px] h-[40px] flex justify-center items-center">
+            <img src="../../img/Outline.svg" alt="" class="">
+          </div>
+          <img src="../../img/icon_cart_simple.svg" alt=""
+            class="border-2 rounded-[50%] w-[40px] h-[40px] px-[8px] py-[9px] ml-[12px] mr-[16px]">
+          <img src="../../img/Menu.svg" alt="" class="lg:hidden">
+        </div>
+      </div>
+
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="w-[350px]  lg:w-[1200px] lg:flex lg:flex-wrap m-auto">
+        <!-- input cards -->
+        <div class="relative mt-[16px] ">
+          <input type="text" placeholder="Search"
+            class="border-2 rounded-[40px] lg:w-full outline-none px-[50px] lg:py-[10px] py-[5px] placeholder:font-medium placeholder:text-[#70737C] text-[#70737C] font-medium">
+          <img src="../../img/Vector (1).svg" alt="" class="absolute lg:top-[15px] top-[11px] left-[25px]">
+          <img src="../../img/Vector 148.svg" alt="" class="absolute lg:top-[15px] top-[11px] right-[25px]"> 
+        </div>
+        <!-- lg:buttons -->
+        <div class="flex gap-[9px] justify-between mt-[16px]">
+          <button class="rounded-[15px] border-2 py-[16px] px-[16px] flex"> <img src="../../img/Vector (2).svg" alt="" class="pr-[8px]">ALL</button> 
+          <button class="rounded-[15px] border-2 py-[16px] px-[16px] flex"> <img src="../../img/Frame 15.svg" alt="" class="pr-[8px]">BUNDLES</button>
+          <button class="rounded-[15px] border-2 py-[16px] px-[16px] flex"> <img src="../../img/Frame (9).svg" alt="" class="pr-[8px]">FLOWERS</button>
+          <button class="rounded-[15px] hidden lg:flex py-[16px] px-[16px] flex"> <img src="../../img/Vector (2).svg" alt="" class="pr-[8px]">ALL</button> 
+          <button class="rounded-[15px]  hidden lg:flex border-2 py-[16px] px-[16px] flex"> <img src="../../img/Frame 15.svg" alt="" class="pr-[8px]">BUNDLES</button>
+          <button class="rounded-[15px]  hidden lg:flex border-2 py-[16px] px-[16px] flex"> <img src="../../img/Frame (9).svg" alt="" class="pr-[8px]">FLOWERS</button>
+          <button class="rounded-[15px]  hidden lg:flex border-2 py-[16px] px-[16px] flex"> <img src="../../img/Frame (9).svg" alt="" class="pr-[8px]">FLOWERS</button>
+          <button class="rounded-[15px]  hidden lg:flex border-2 py-[16px] px-[16px] flex"> <img src="../../img/Frame (9).svg" alt="" class="pr-[8px]">FLOWERS</button>
+        </div>
+        <!-- block1-->
+         <div class="hidden mt-[10px] lg:flex gap-[10px]">
+        <div class="rounded-[8px] border-2 w-[350px] [28px] mb-[0px] relative [#EFEFEF]">
+          <div>
+            <img src="../../img/Outline.svg" alt="" class="border-2 rounded-[50%] p-[8px] absolute top-[12px] right-[12px]">           
+            <img src="../../img/image 1 (1).svg" alt="">
+          </div>
+          <div>
+            <img src="../../img/icon_cart_simple.svg" alt="" class="border-2 rounded-[8 px] p-[8px] absolute bottom-[12px] right-[12px]">
+          </div>
+          <div class="flex gap-[2px]">
+            <img src="../../img/Vector (3).svg" alt="">
+            <img src="../../img/Vector (3).svg" alt="">
+            <img src="../../img/Vector (3).svg" alt="">
+            <img src="../../img/Vector (3).svg" alt="">
+            <img src="../../img/star-half-alt.svg" alt="">
+            <span class="font-semibold text-[#70737C]">(123)</span>
+          </div>
+          <div>
+            <p class="font-medium text-[16px] text-[#1F2533]">Seedra Cilantro Seeds for Planting Indoor and Outdoor</p>
+            <p class="font-bold text-[28px] text-[#1F2533]">$12.56</p>
+
+          </div>
+        </div>
+        <!-- block2 -->
+          <div class="w-[350px] rounded-[8px] border-2 p-[28px] relative [#EFEFEF]">
+            <div>
+              <img src="../../img/image 1 (1).svg" alt="">
+              <img src="../../img/Outline.svg" alt="" class="border-2 rounded-[50%] p-[8px] absolute top-[12px] right-[12px]">           
+            </div>
+            <div>
+              <img src="../../img/icon_cart_simple.svg" alt="" class="border-2 rounded-[8 px] p-[8px] absolute bottom-[12px] right-[12px]">
+            </div>
+            <div class="flex gap-[2px]">
+              <img src="../../img/Vector (3).svg" alt="">
+              <img src="../../img/Vector (3).svg" alt="">
+              <img src="../../img/Vector (3).svg" alt="">
+              <img src="../../img/Vector (3).svg" alt="">
+              <img src="../../img/star-half-alt.svg" alt="">
+              <span class="font-semibold text-[#70737C]">(123)</span>
+            </div>
+            <div>
+              <p class="font-medium text-[16px] text-[#1F2533]">Seedra Cilantro Seeds for Planting Indoor and Outdoor</p>
+              <p class="font-bold text-[28px] text-[#1F2533]">$12.56</p>
+  
+            </div>
+          </div>
+          <!-- block3 -->
+            <div class="w-[350px] rounded-[8px] border-2 p-[28px] relative [#EFEFEF]">
+              <div>
+                <img src="../../img/image 1 (1).svg" alt="">
+                <img src="../../img/Outline.svg" alt="" class="border-2 rounded-[50%] p-[8px] absolute top-[12px] right-[12px]">           
+              </div>
+              <div>
+                <img src="../../img/icon_cart_simple.svg" alt="" class="border-2 rounded-[8 px] p-[8px] absolute bottom-[12px] right-[12px]">
+              </div>
+              <div class="flex gap-[2px]">
+                <img src="../../img/Vector (3).svg" alt="">
+                <img src="../../img/Vector (3).svg" alt="">
+                <img src="../../img/Vector (3).svg" alt="">
+                <img src="../../img/Vector (3).svg" alt="">
+                <img src="../../img/star-half-alt.svg" alt="">
+                <span class="font-semibold text-[#70737C]">(123)</span>
+              </div>
+              <div>
+                <p class="font-medium text-[16px] text-[#1F2533]">Seedra Cilantro Seeds for Planting Indoor and Outdoor</p>
+                <p class="font-bold text-[28px] text-[#1F2533]">$12.56</p>
+    
+              </div>
+            </div>
+          </div>
+            <!-- block4 -->
+             <div class="lg:flex gap-[10px] lg:mt-[10px] lg:flex-wrap">
+
+               <div class="w-[350px] rounded-[8px] border-2 p-[28px] relative [#EFEFEF]">
+                 <div>
+                   <img src="../../img/image 1 (2).svg" alt="">
+                   <img src="../../img/Outline.svg" alt="" class="border-2 rounded-[50%] p-[8px] absolute top-[12px] right-[12px]">           
+                 </div>
+                 <div>
+                   <img src="../../img/icon_cart_simple.svg" alt="" class="border-2 rounded-[8 px] p-[8px] absolute bottom-[12px] right-[12px]">
+                 </div>
+                 <div class="flex gap-[2px]">
+                   <img src="../../img/Vector (3).svg" alt="">
+                   <img src="../../img/Vector (3).svg" alt="">
+                   <img src="../../img/Vector (3).svg" alt="">
+                   <img src="../../img/Vector (3).svg" alt="">
+                   <img src="../../img/star-half-alt.svg" alt="">
+                   <span class="font-semibold text-[#70737C]">(123)</span>
+                 </div>
+                 <div>
+                   <p class="font-medium text-[16px] text-[#1F2533]">Seedra Cilantro Seeds for Planting Indoor and Outdoor</p>
+                   <p class="font-bold text-[28px] text-[#1F2533]">$12.56</p>
+       
+                 </div>
+               </div>
+               <!-- block5 -->
+                 <div class="w-[350px] rounded-[8px] border-2 p-[28px] relative [#EFEFEF]">
+                   <div>
+                     <img src="../../img/image 1 (2).svg" alt="">
+                     <img src="../../img/Outline.svg" alt="" class="border-2 rounded-[50%] p-[8px] absolute top-[12px] right-[12px]">           
+                   </div>
+                   <div>
+                     <img src="../../img/icon_cart_simple.svg" alt="" class="border-2 rounded-[8 px] p-[8px] absolute bottom-[12px] right-[12px]">
+                   </div>
+                   <div class="flex gap-[2px]">
+                     <img src="../../img/Vector (3).svg" alt="">
+                     <img src="../../img/Vector (3).svg" alt="">
+                     <img src="../../img/Vector (3).svg" alt="">
+                     <img src="../../img/Vector (3).svg" alt="">
+                     <img src="../../img/star-half-alt.svg" alt="">
+                     <span class="font-semibold text-[#70737C]">(123)</span>
+                   </div>
+                   <div>
+                     <p class="font-medium text-[16px] text-[#1F2533]">Seedra Cilantro Seeds for Planting Indoor and Outdoor</p>
+                     <p class="font-bold text-[28px] text-[#1F2533]">$12.56</p>
+         
+                   </div>
+                 </div>
+                 <!-- block6 -->
+                 <div class="w-[350px] rounded-[8px] border-2 p-[28px] relative [#EFEFEF]">
+                   <div>
+                     <img src="../../img/image 1 (2).svg" alt="">
+                     <img src="../../img/Outline.svg" alt="" class="border-2 rounded-[50%] p-[8px] absolute top-[12px] right-[12px]">           
+                   </div>
+                   <div>
+                     <img src="../../img/icon_cart_simple.svg" alt="" class="border-2 rounded-[8 px] p-[8px] absolute bottom-[12px] right-[12px]">
+                   </div>
+                   <div class="flex gap-[2px]">
+                     <img src="../../img/Vector (3).svg" alt="">
+                     <img src="../../img/Vector (3).svg" alt="">
+                     <img src="../../img/Vector (3).svg" alt="">
+                     <img src="../../img/Vector (3).svg" alt="">
+                     <img src="../../img/star-half-alt.svg" alt="">
+                     <span class="font-semibold text-[#70737C]">(123)</span>
+                   </div>
+                   <div>
+                     <p class="font-medium text-[16px] text-[#1F2533]">Seedra Cilantro Seeds for Planting Indoor and Outdoor</p>
+                     <p class="font-bold text-[28px] text-[#1F2533]">$12.56</p>
+         
+                   </div>
+                 </div>
+             </div>
+
+                <div class="rounded-[8px] border-2 p-[28px] relative [#EFEFEF]">
+                  <div>
+                    <img src="../../img/image 1 (4).svg" alt="">
+                    <img src="../../img/Outline.svg" alt="" class="border-2 rounded-[50%] p-[8px] absolute top-[12px] right-[12px]">           
+                  </div>
+                  <div>
+                    <img src="../../img/icon_cart_simple.svg" alt="" class="border-2 rounded-[8 px] p-[8px] absolute bottom-[12px] right-[12px]">
+                  </div>
+                  <div class="flex gap-[2px]">
+                    <img src="../../img/Vector (3).svg" alt="">
+                    <img src="../../img/Vector (3).svg" alt="">
+                    <img src="../../img/Vector (3).svg" alt="">
+                    <img src="../../img/Vector (3).svg" alt="">
+                    <img src="../../img/star-half-alt.svg" alt="">
+                    <span class="font-semibold text-[#70737C]">(123)</span>
+                  </div>
+                  <div>
+                    <p class="font-medium text-[16px] text-[#1F2533]">Seedra Cilantro Seeds for Planting Indoor and Outdoor</p>
+                    <p class="font-bold text-[28px] text-[#1F2533]">$12.56</p>
+        
+                  </div>
+                </div>
+      </div>
+          
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+</head>
+<body>
+    <header class="shadow">
+        <div class="w-[1110px] m-auto">
+          <div class="flex justify-between h-[50px] items-center">
+            <div>
+              <img src="./img/Frame (1).svg" alt="">
+            </div>
+            <nav>
+              <ul class="flex">
+                <li class="mr-[32px]">ALL PRODUCTS</li>
+                <li class="mr-[32px] border-l-2 px-[20px]">ABOUT SEEDRA</li>
+                <li class="mr-[32px] border-l-2 px-[20px]">OUR BLOG</li>
+                <li class="mr-[32px] border-l-2 px-[20px]">CONTACTS</li>
+              </ul>
+            </nav>
+            <div class="flex">
+              <img src="./img/ant-design_instagram-filled.svg" alt="" class="mr-[8px]">
+              <img src="./img/Group (5).svg" alt="">
+              <img src="./img/Vector (1).svg" alt="" class="relative left-[40px]">
+              <input type="text" placeholder="Search"
+                class="mx-[12px] border border-#EFEFEF px-[5px] py-[4px] rounded-[20px] placeholder:pl-[30px]">
+              <img src="./img/Frame 7.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </header>
+</body>
+</html>
